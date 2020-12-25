@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "VideoStream",
+    "slug": "VideoStream",
+    "version": "1.0.0",
+    "sdkVersion": "40.0.0",
+    "orientation": "portrait",
+    "privacy": "public",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.iclearjob.videostream",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.iclearjob.videostream",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
+
